@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		9CA2C18C242E48A4001011E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2C18B242E48A4001011E9 /* AppDelegate.swift */; };
 		9CA2C18E242E48A4001011E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2C18D242E48A4001011E9 /* SceneDelegate.swift */; };
-		9CA2C190242E48A4001011E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2C18F242E48A4001011E9 /* ViewController.swift */; };
-		9CA2C193242E48A4001011E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA2C191242E48A4001011E9 /* Main.storyboard */; };
 		9CA2C195242E48AC001011E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA2C194242E48AC001011E9 /* Assets.xcassets */; };
 		9CA2C198242E48AD001011E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA2C196242E48AD001011E9 /* LaunchScreen.storyboard */; };
+		9CA2C1A1242E4B18001011E9 /* Sucursal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2C1A0242E4B18001011E9 /* Sucursal.swift */; };
+		9CA2C1A4242E4C80001011E9 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2C1A3242E4C80001011E9 /* NetworkingManager.swift */; };
+		9CA2C1A7242E4D02001011E9 /* URLSessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2C1A6242E4D02001011E9 /* URLSessionExtension.swift */; };
+		9CA2C1AA242E514A001011E9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2C1A9242E514A001011E9 /* Constants.swift */; };
+		9CA2C1AD242E53E3001011E9 /* SucursalesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2C1AC242E53E3001011E9 /* SucursalesTableViewController.swift */; };
+		9CA2C1B0242E556F001011E9 /* SucursalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2C1AF242E556F001011E9 /* SucursalViewModel.swift */; };
+		9CA2C1B3242E5A28001011E9 /* SucursalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2C1B2242E5A28001011E9 /* SucursalCell.swift */; };
+		9CA2C1B5242E5B91001011E9 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2C1B4242E5B91001011E9 /* ViewExtension.swift */; };
+		9CA2C1B7242E6265001011E9 /* SucursalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2C1B6242E6265001011E9 /* SucursalDetailViewController.swift */; };
+		9CA2C1B9242E62CF001011E9 /* SucursalDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2C1B8242E62CF001011E9 /* SucursalDetail.swift */; };
+		9CA2C1BB242E6D60001011E9 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2C1BA242E6D60001011E9 /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9CA2C188242E48A4001011E9 /* Walmart Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Walmart Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA2C18B242E48A4001011E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CA2C18D242E48A4001011E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CA2C18F242E48A4001011E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9CA2C192242E48A4001011E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CA2C194242E48AC001011E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CA2C197242E48AD001011E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CA2C199242E48AD001011E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA2C1A0242E4B18001011E9 /* Sucursal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sucursal.swift; sourceTree = "<group>"; };
+		9CA2C1A3242E4C80001011E9 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		9CA2C1A6242E4D02001011E9 /* URLSessionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionExtension.swift; sourceTree = "<group>"; };
+		9CA2C1A9242E514A001011E9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9CA2C1AC242E53E3001011E9 /* SucursalesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SucursalesTableViewController.swift; sourceTree = "<group>"; };
+		9CA2C1AF242E556F001011E9 /* SucursalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SucursalViewModel.swift; sourceTree = "<group>"; };
+		9CA2C1B2242E5A28001011E9 /* SucursalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SucursalCell.swift; sourceTree = "<group>"; };
+		9CA2C1B4242E5B91001011E9 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		9CA2C1B6242E6265001011E9 /* SucursalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SucursalDetailViewController.swift; sourceTree = "<group>"; };
+		9CA2C1B8242E62CF001011E9 /* SucursalDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SucursalDetail.swift; sourceTree = "<group>"; };
+		9CA2C1BA242E6D60001011E9 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,80 @@
 		9CA2C18A242E48A4001011E9 /* Walmart Mobile */ = {
 			isa = PBXGroup;
 			children = (
+				9CA2C19F242E4A66001011E9 /* Model */,
+				9CA2C1B1242E59EF001011E9 /* CustomViews */,
+				9CA2C1AE242E554E001011E9 /* ViewModel */,
+				9CA2C1AB242E521C001011E9 /* Controllers */,
+				9CA2C1A2242E4C58001011E9 /* Networking */,
+				9CA2C1A5242E4CC0001011E9 /* Extensions */,
+				9CA2C1A8242E510B001011E9 /* Constants */,
 				9CA2C18B242E48A4001011E9 /* AppDelegate.swift */,
 				9CA2C18D242E48A4001011E9 /* SceneDelegate.swift */,
-				9CA2C18F242E48A4001011E9 /* ViewController.swift */,
-				9CA2C191242E48A4001011E9 /* Main.storyboard */,
 				9CA2C194242E48AC001011E9 /* Assets.xcassets */,
 				9CA2C196242E48AD001011E9 /* LaunchScreen.storyboard */,
 				9CA2C199242E48AD001011E9 /* Info.plist */,
 			);
 			path = "Walmart Mobile";
+			sourceTree = "<group>";
+		};
+		9CA2C19F242E4A66001011E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2C1A0242E4B18001011E9 /* Sucursal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9CA2C1A2242E4C58001011E9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2C1A3242E4C80001011E9 /* NetworkingManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9CA2C1A5242E4CC0001011E9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2C1A6242E4D02001011E9 /* URLSessionExtension.swift */,
+				9CA2C1B4242E5B91001011E9 /* ViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9CA2C1A8242E510B001011E9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2C1A9242E514A001011E9 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9CA2C1AB242E521C001011E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2C1AC242E53E3001011E9 /* SucursalesTableViewController.swift */,
+				9CA2C1B6242E6265001011E9 /* SucursalDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9CA2C1AE242E554E001011E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2C1AF242E556F001011E9 /* SucursalViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9CA2C1B1242E59EF001011E9 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2C1B2242E5A28001011E9 /* SucursalCell.swift */,
+				9CA2C1B8242E62CF001011E9 /* SucursalDetail.swift */,
+				9CA2C1BA242E6D60001011E9 /* ActivityIndicator.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +210,6 @@
 			files = (
 				9CA2C198242E48AD001011E9 /* LaunchScreen.storyboard in Resources */,
 				9CA2C195242E48AC001011E9 /* Assets.xcassets in Resources */,
-				9CA2C193242E48A4001011E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +220,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CA2C190242E48A4001011E9 /* ViewController.swift in Sources */,
+				9CA2C1B0242E556F001011E9 /* SucursalViewModel.swift in Sources */,
 				9CA2C18C242E48A4001011E9 /* AppDelegate.swift in Sources */,
+				9CA2C1A7242E4D02001011E9 /* URLSessionExtension.swift in Sources */,
 				9CA2C18E242E48A4001011E9 /* SceneDelegate.swift in Sources */,
+				9CA2C1BB242E6D60001011E9 /* ActivityIndicator.swift in Sources */,
+				9CA2C1B5242E5B91001011E9 /* ViewExtension.swift in Sources */,
+				9CA2C1B3242E5A28001011E9 /* SucursalCell.swift in Sources */,
+				9CA2C1B7242E6265001011E9 /* SucursalDetailViewController.swift in Sources */,
+				9CA2C1AA242E514A001011E9 /* Constants.swift in Sources */,
+				9CA2C1B9242E62CF001011E9 /* SucursalDetail.swift in Sources */,
+				9CA2C1A4242E4C80001011E9 /* NetworkingManager.swift in Sources */,
+				9CA2C1A1242E4B18001011E9 /* Sucursal.swift in Sources */,
+				9CA2C1AD242E53E3001011E9 /* SucursalesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9CA2C191242E48A4001011E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9CA2C192242E48A4001011E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9CA2C196242E48AD001011E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
